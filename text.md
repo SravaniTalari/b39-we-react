@@ -42,3 +42,26 @@ functiom Welcome(){
         </div>
     );
 }
+
+
+React : event listeners should be written in camelCase
+
+### Hooks
+1. REact listen to changes made by hooks
+2. hooks are functions
+3. It starts with `use`
+4. eg : `useState` 
+    1. const [state , setState] = useState(IntialValue)
+    2. state --> current value
+    3. setState --> to update the state value
+    4. setState (is like a messanger ) react listens and updates the state & view.
+    5. import { useState } from 'react';
+    
+### conditional styling
+### conditional rendering
+
+### Imports & Exports
+1. Named - imports & expors - preferred
+    1. Multiple exports
+2. default - imports & exports
+    1. only one export for file
